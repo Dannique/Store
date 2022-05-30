@@ -6,7 +6,7 @@ import Badge from '@mui/material/Badge';
 
 const Container = styled.div`
     height: 60px;
-    background-color:#e8dfdf;
+    background-color:#FCFBFB;
 `
 
 const Wrapper = styled.div`
@@ -33,7 +33,7 @@ const SearchContainer = styled.div`
 `
 const Input = styled.input`
     border: none;
-    background-color: #e8dfdf;
+    background-color: #FCFBFB;
     outline: none;
 `
 
