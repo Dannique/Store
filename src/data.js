@@ -2,7 +2,7 @@
 import SummerFashion from './Images/summerwear/SummerFashion1.jpg'
 import Summer4 from './Images/summerwear/summer4.png'
 import Summer5 from './Images/summerwear/summer5.png'
-import Summer8 from './Images/summerwear/summer8.png'
+//import Summer8 from './Images/summerwear/summer8.png'
 ////////////////// SPORTS
 import Sportswear from './Images/sportswear/Sportswear.jpg'
 import Sportswear130 from './Images/sportswear/sportswear130.jpg'
