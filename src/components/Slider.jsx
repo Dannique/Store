@@ -51,7 +51,18 @@ const ImgContainer = styled.div`
   height:100%;
   flex:1;
 `
-
+const Button = styled.button`
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  &:hover{
+    background-color: rgba(55,51,51,0.49);
+  }
+  transition-duration: 0.4s;
+`
 const Image = styled.img`
 height: 100%;
 `
@@ -69,14 +80,6 @@ const Desc = styled.p`
   font-weight: 500;
   letter-spacing: 1.2px;
 `
-const Button = styled.button`
-  padding: 8px;
-  font-size: 15px;
-  letter-spacing: 1.2px;
-  font-weight: 600;
-  background-color: transparent;
-  cursor: pointer;
-`
 
 export const Slider = () => {
 
@@ -84,9 +87,9 @@ export const Slider = () => {
 
     const handleClick = (direction) =>{
     if (direction === "left") {
-      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
+      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 3);
     } else {
-      setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+      setSlideIndex(slideIndex < 3 ? slideIndex + 1 : 0);
     } 
     }
 
