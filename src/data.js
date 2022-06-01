@@ -1,10 +1,25 @@
-import SummerFashion from './Images/SummerFashion1.jpg'
-import Sportswear from './Images/Sportswear.jpg'
-import Sportswear130 from './Images/sportswear130.jpg'
-import Footwear from './Images/Footwear.jpg'
-import Footwear130 from './Images/footwear130.jpg'
-import Tshirt from './Images/Tshirt.png'
-import ShirtStyle from './Images/Eunoia2.jpeg'
+////////////////// SUMMER
+import SummerFashion from './Images/summerwear/SummerFashion1.jpg'
+import Summer4 from './Images/summerwear/summer4.png'
+import Summer5 from './Images/summerwear/summer5.png'
+import Summer8 from './Images/summerwear/summer8.png'
+////////////////// SPORTS
+import Sportswear from './Images/sportswear/Sportswear.jpg'
+import Sportswear130 from './Images/sportswear/sportswear130.jpg'
+import Sports6 from './Images/sportswear/sports6.png'
+////////////////// SHOES
+import Footwear from './Images/footwear/Footwear.jpg'
+import Footwear130 from './Images/footwear/footwear130.jpg'
+import Footwear3 from './Images/footwear/footwear3.png'
+import Footwear7 from './Images/footwear/footwear7.png'
+////////////////// TSHIRTS
+import Tshirt from './Images/tshirts/Tshirt.png'
+import ShirtStyle from './Images/tshirts/Eunoia2.jpeg'
+// import Eunoia3 from './Images/tshirts/Eunoia3.jpeg'
+// import Eunoia5 from './Images/tshirts/Eunoia5.jpeg'
+import Tshirt1 from './Images/tshirts/tshirt1.png'
+import Tshirt2 from './Images/tshirts/tshirt2.png'
+import Tshirt3 from './Images/tshirts/tshirt3.png'
 import Trendy from './Images/trendy.jpg'
 
 export const sliderItems = [
@@ -64,34 +79,34 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:Summer4,
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:Footwear3,
     },
     {
       id:3,
-      img:"10O/UCS319_1YOT_F010Ohttps://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF0_S_182_SLF.png",
+      img:Tshirt1,
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:Sports6,
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:Tshirt2,
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:Summer5,
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:Footwear7,
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:Tshirt3,
     },
   ]
