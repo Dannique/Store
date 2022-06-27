@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
 `;
 
 const Form = styled.form`
@@ -61,10 +61,20 @@ const Link = styled.a`
     text-decoration: underline;
   }
 `;
+const RegisterText = styled.p`
+  font-size: 12px;
+  margin: 30px 0 15px 0;
+  text-align: center;
+`
+const RegisterLink = styled.a`
+text-decoration: underline;
+font-size: 14px;
+cursor: pointer;
+`
 
 const SocialIcons = styled.div`
 text-align: center;
-margin-top:65px;
+margin-top:10px;
 `
 const SocialIcon = styled.a`
     text-decoration: none;
@@ -82,8 +92,11 @@ const Login = () => {
           <Input placeholder="password" />
           <Button>LOGIN</Button>
           <Link>Forgot Password?</Link>
-          <Link>Create a New Account</Link>
+          {/* <Link>Create a New Account</Link> */}
         </Form>
+        <RegisterText>
+            Don't have an account yet? <RegisterLink>Register</RegisterLink>
+        </RegisterText>
         <SocialIcons>
         <SocialIcon color="#BB001B" href="https://google.com"><MailOutline/></SocialIcon>
         <SocialIcon color="#3b5998" href="https://www.facebook.com/eunoiastore.lk/shop/?ref_code=mini_shop_page_card_cta&ref_surface=mini_shop_product_details"><FacebookOutlined/></SocialIcon>
