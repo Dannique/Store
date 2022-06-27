@@ -22,6 +22,7 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
   display: flex;
+  justify-content: center;
 `
 
 const SocialIcon = styled.div`
@@ -56,6 +57,10 @@ const List = styled.ul`
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 const Right = styled.div`

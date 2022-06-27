@@ -45,10 +45,10 @@ const Center = styled.div`
 `
 const Logo = styled.a`
     text-decoration:none;
-    font-family: 'PT Sans', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 1.6em;
+    font-family: 'Satisfy', cursive;
+    /* letter-spacing: 1px; */
+    /* font-weight: 500; */
+    font-size: 2.2em;
     color:black;
 `
 const Right = styled.div`
@@ -76,7 +76,7 @@ export const Navbar = () => {
         </SearchContainer>
       </Left>
       <Center>
-        <Logo href='#home'>MyShopBrand.</Logo>
+        <Logo href='#home'>Eunoia</Logo>
       </Center>
       <Right>
         <MenuItems>
