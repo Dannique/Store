@@ -1,18 +1,23 @@
 ////////////////// SUMMER
 import SummerFashion from './Images/summerwear/SummerFashion1.jpg'
-import Summer4 from './Images/summerwear/summer4.png'
-import Summer5 from './Images/summerwear/summer5.png'
-//import Summer8 from './Images/summerwear/summer8.png'
+// import Summer4 from './Images/summerwear/summer4.png'
+// import Summer5 from './Images/summerwear/summer5.png'
+////import Summer8 from './Images/summerwear/summer8.png'
 ////////////////// SPORTS
 import Sportswear from './Images/sportswear/Sportswear.jpg'
 import Sportswear130 from './Images/sportswear/sportswear130.jpg'
-import Sports6 from './Images/sportswear/sports6.png'
+// import Sports6 from './Images/sportswear/sports6.png'
 ////////////////// SHOES
 import Footwear from './Images/footwear/Footwear.jpg'
 import Footwear130 from './Images/footwear/footwear130.jpg'
-import Footwear3 from './Images/footwear/footwear3.png'
-import Footwear7 from './Images/footwear/footwear7.png'
+// import Footwear3 from './Images/footwear/footwear3.png'
+// import Footwear7 from './Images/footwear/footwear7.png'
 ////////////////// TSHIRTS
+// Popular:
+// tshirt 8
+// tshirt 9
+// tshirt 23
+// tshirt 29
 import Tshirt from './Images/tshirts/Tshirt.png'
 import ShirtStyle from './Images/tshirts/Eunoia2.jpeg'
 import Tshirt1 from './Images/tshirts/tshirt1.png'
@@ -74,7 +79,7 @@ export const sliderItems = [
     {
       id: 4,
       img: Footwear,
-      title: "FOOTWEAR LOVE",
+      title: "Shirt",
       desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
       bg: "#FAF5F1",
     },
@@ -142,18 +147,18 @@ export const sliderItems = [
 {
   id: 1,
   img: Tshirt1,
-  title: "FOOTWEAR LOVE",
+  title: "Scooby Doo",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 2,
   img: Tshirt2,
-  title: "FOOTWEAR LOVE",
+  title: "Princess Mononoke",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1500
 },
 {
   id: 3,
@@ -161,223 +166,222 @@ export const sliderItems = [
   title: "Goku & Oozaru -Dragon Ball Z",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 4,
   img: Tshirt4,
-  title: "FOOTWEAR LOVE",
+  title: "Fred and Barney",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 5,
   img: Tshirt5,
-  title: "FOOTWEAR LOVE",
+  title: "Black Panther",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 6,
   img: Tshirt6,
-  title: "FOOTWEAR LOVE",
+  title: "Dark Souls 3 -Yhorm the Giant",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 7,
   img: Tshirt7,
-  title: "FOOTWEAR LOVE",
+  title: "Samurai -Cyberpunk 2077",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 8,
   img: Tshirt8,
-  title: "FOOTWEAR LOVE",
+  title: "Johnny Bravo",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1500
 },
 {
   id: 9,
   img: Tshirt9,
-  title: "FOOTWEAR LOVE",
+  title: "Tin Tin",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 10,
   img: Tshirt10,
-  title: "FOOTWEAR LOVE",
+  title: "Popeye",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 11,
   img: Tshirt11,
-  title: "FOOTWEAR LOVE",
+  title: "Lucky Luke -Kawda Boy",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 12,
   img: Tshirt12,
-  title: "FOOTWEAR LOVE",
+  title: "Homer Simpson",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 13,
   img: Tshirt13,
-  title: "FOOTWEAR LOVE",
+  title: "Baby Yoda",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1500
 },
 {
   id: 14,
   img: Tshirt14,
-  title: "FOOTWEAR LOVE",
+  title: "Pumbaa and Timon -Lion King",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1500
 },
 {
   id: 15,
   img: Tshirt15,
-  title: "FOOTWEAR LOVE",
+  title: "Kid Buu -Dragon Ball Z",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 16,
   img: Tshirt16,
-  title: "FOOTWEAR LOVE",
+  title: "Hulk",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 17,
   img: Tshirt17,
-  title: "FOOTWEAR LOVE",
+  title: "The Journey",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 18,
   img: Tshirt18,
-  title: "FOOTWEAR LOVE",
+  title: "Know Your Worth",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 19,
   img: Tshirt19,
-  title: "FOOTWEAR LOVE",
+  title: "Captain Haddock",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 20,
   img: Tshirt20,
-  title: "FOOTWEAR LOVE",
+  title: "Wolverine",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 21,
   img: Tshirt21,
-  title: "FOOTWEAR LOVE",
+  title: "Harley Quinn",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 22,
   img: Tshirt22,
-  title: "FOOTWEAR LOVE",
+  title: "Final Fantasy VII -Cloud vs Sephiroth",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 23,
   img: Tshirt23,
-  title: "FOOTWEAR LOVE",
+  title: "Kimetsu No Yaiba -Demon Slayer",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 24,
   img: Tshirt24,
-  title: "FOOTWEAR LOVE",
+  title: "Naruto & Kurama -Sage Mode",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 25,
   img: Tshirt25,
-  title: "FOOTWEAR LOVE",
+  title: "Ironman",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 26,
   img: Tshirt26,
-  title: "FOOTWEAR LOVE",
+  title: "The Punisher -Frank Castle",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 27,
   img: Tshirt27,
-  title: "FOOTWEAR LOVE",
+  title: "The Joker -Batman",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 28,
   img: Tshirt28,
-  title: "FOOTWEAR LOVE",
+  title: "Batman -Dark Knight",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 29,
   img: Tshirt29,
-  title: "FOOTWEAR LOVE",
+  title: "Wild Life",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1900
 },
 {
   id: 30,
   img: Tshirt30,
-  title: "FOOTWEAR LOVE",
+  title: "Do What I Want",
   desc: "CHECK OUT OUR FOOTWEAR COLLECTION! BUY 2 PAIR GET 12% OFF",
   alt: "",
-  price:1.500
+  price:1500
 }
-
   ]
