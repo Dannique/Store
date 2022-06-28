@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+//import {productItems }from '../data';
+
 
 const Info = styled.div`
   opacity: 0;
@@ -66,9 +68,33 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `
+const PriceContainer = styled.div`
+z-index: 30;
+position: absolute;
+top: 0px;
+background-color: rgba(0, 0, 0, 0);
+min-width: 280px;
+
+`
+const Name = styled.p`
+text-align: center;
+font-size: 15px;
+color:#5e5e5e;
+font-weight: 600;
+letter-spacing: .5px;
+`
+
+const Price = styled.p`
+text-align: center;
+  font-size: 15px;
+  color: teal;
+  font-weight: 400;
+`
+
 
 export const Product = ({item}) => {
   return (
+  
     <Container>
       <Circle />
       <Image src={item.img} />
@@ -83,6 +109,15 @@ export const Product = ({item}) => {
         <FavoriteBorderIcon/>
         </Icon>
       </Info>
-    </Container>
+      <PriceContainer>
+      <Name>
+        {item.title}
+      </Name>
+        <Price>
+         Rs. {item.price}
+        </Price>
+      </PriceContainer>
+      </Container>
+
   )
 }
