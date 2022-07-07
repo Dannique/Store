@@ -5,7 +5,12 @@ import {Navbar} from "../components/Navbar";
 import {Announcement} from "../components/Announcement";
 import {Footer} from "../components/Footer";
 import { mobile } from "../responsive";
+import style from "styled-theming"
 
+const ButtonTheme = style("mode", {
+    dark: "#fff",
+    light: "#000000",
+  })
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -30,10 +35,9 @@ const TopButton = styled.button`
   padding: 10px;
   font-weight: 600;
   cursor: pointer;
-  border: ${(props) => props.type === "filled" && "none"};
-  background-color: ${(props) =>
-    props.type === "filled" ? "black" : "transparent"};
-  color: ${(props) => props.type === "filled" && "white"};
+  border: 2px solid ${ButtonTheme};
+  background-color: transparent;
+  color: ${ButtonTheme};
 `;
 
 const TopTexts = styled.div`

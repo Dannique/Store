@@ -7,8 +7,28 @@ import {Announcement} from "../components/Announcement";
 import {Newsletter} from "../components/Newsletter";
 import {Footer} from "../components/Footer";
 import TShirt3a from "../Images/tshirts/tshirt3a.png"
+import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
+import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import { mobile } from "../responsive";
+import style from 'styled-theming'
 
+const getNavBackground = style("mode", {
+  dark: "#282c34",
+  light: "#FCFBFB",
+})
+
+const getForeground = style("mode", {
+  dark: "#fff",
+  light: "#282c34",
+})
+
+
+
+// const Container = styled.div`
+//     height: 60px;
+//     background-color:${getNavBackground}; 
+//      ${mobile({ height: "50px" })}
+// `
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -114,12 +134,11 @@ const Amount = styled.span`
 const Button = styled.button`
   padding: 15px;
   border: 2px solid teal;
-  background-color: white;
+  background-color: transparent;
+  color:${getForeground};
   cursor: pointer;
   font-weight: 500;
-  &:hover{
-      background-color: #f8f4f4;
-  }
+
 `;
 
 const Product = () => {

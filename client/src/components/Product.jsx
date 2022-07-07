@@ -4,7 +4,17 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 //import {productItems }from '../data';
+import style from "styled-theming"
 
+const getProductBackground = style("mode", {
+    dark: "#22252C",
+    light: "#f5fbfd",
+  })
+  
+  const getProductCircleBackground = style("mode", {
+    dark: "#333741",
+    light: "#fff",
+  })
 
 const Info = styled.div`
   opacity: 0;
@@ -30,7 +40,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5fbfd;
+  background-color: ${getProductBackground};
   position: relative;
   &:hover ${Info}{
     opacity: 1;
@@ -41,7 +51,7 @@ const Circle = styled.div`
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: white;
+  background-color: ${getProductCircleBackground};
   position: absolute;
 `
 
@@ -58,6 +68,7 @@ const Icon = styled.div`
   height: 40px;
   border-radius: 50%;
   background-color: white;
+  color:black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +90,7 @@ min-width: 280px;
 const Name = styled.p`
 text-align: center;
 font-size: 15px;
-color:#5e5e5e;
+//color:#5e5e5e;
 font-weight: 600;
 letter-spacing: .5px;
 `

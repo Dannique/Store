@@ -3,6 +3,14 @@ import {MailOutline, FacebookOutlined, Instagram} from '@mui/icons-material'
 import {mobile} from "../responsive";
 //https://www.pcclean.io/wp-content/uploads/2020/4/IBnMBz.jpg
 //https://www.pixelstalk.net/wp-content/uploads/2016/10/Anime-Landscape-Backgrounds.jpg
+import { Navbar } from "../components/Navbar";
+import style from "styled-theming"
+
+const getBackground = style("mode", {
+    dark: "#282c34",
+    light: "#FCFBFB",
+  })
+
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
@@ -16,6 +24,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  color:#000000;
 `;
 
 const Wrapper = styled.div`
@@ -92,6 +101,7 @@ const Login = () => {
           <Input placeholder="password" />
           <Button>LOGIN</Button>
           <Link>Forgot Password?</Link>
+          <Link>Homepage</Link>
           {/* <Link>Create a New Account</Link> */}
         </Form>
         <RegisterText>

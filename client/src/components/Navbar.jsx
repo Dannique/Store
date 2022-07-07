@@ -1,13 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
+import Toggle from './Toggle'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Badge from '@mui/material/Badge';
 import { mobile } from "../responsive";
+import style from 'styled-theming'
+
+const getNavBackground = style("mode", {
+  dark: "#282c34",
+  light: "#FCFBFB",
+})
+
+const getForeground = style("mode", {
+  dark: "#fff",
+  light: "#282c34",
+})
+
 
 const Container = styled.div`
     height: 60px;
-    background-color:#FCFBFB; 
+    background-color:${getNavBackground}; 
      ${mobile({ height: "50px" })}
 `
 
@@ -24,13 +37,15 @@ const Left = styled.div`
     align-items: center;
     ${mobile({ fontSize: "24px" })}
 `
-const Laguage = styled.span`
-    font-size: 14px;
-    cursor: pointer;
-    ${mobile({display:"none"})}
-`
+// const Laguage = styled.span`
+//     font-size: 14px;
+//     cursor: pointer;
+//     ${mobile({display:"none"})}
+// `
+
 const SearchContainer = styled.div`
     border: .5px solid lightgray;
+    background-color:#FCFBFB;
     display: flex;
     align-items: center;
     margin-left:35px;
@@ -39,7 +54,7 @@ const SearchContainer = styled.div`
 `
 const Input = styled.input`
     border: none;
-    background-color: #FCFBFB;
+    background-color:#FCFBFB;
     outline: none;
     ${mobile({ width: "50px"})}
 `
@@ -56,7 +71,7 @@ const Logo = styled.a`
     /* letter-spacing: 1px; */
     /* font-weight: 500; */
     font-size: 2.2em;
-    color:black;
+    color:${getForeground};
     ${mobile({ fontSize: "24px" })}
 `
 const Right = styled.div`
@@ -79,7 +94,8 @@ export const Navbar = () => {
     <Container>
       <Wrapper>
       <Left>
-        <Laguage>EN</Laguage>
+<Toggle/>
+        {/* <Laguage>EN</Laguage> */}
         <SearchContainer>
           <Input placeholder='Search'/>
           <SearchIcon style={{color:"gray", fontSize:"22px"}} />

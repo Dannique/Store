@@ -26,7 +26,7 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
   display: flex;
-  justify-content: center;
+  ${mobile({ justifyContent:" center" })}
 `
 
 const SocialIcon = styled.div`
@@ -71,7 +71,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
-  ${mobile({ backgroundColor: "#fff8f8" })}
+  ${mobile({ backgroundColor:"#393e47" })}
 `
 
 const ContactItem = styled.div`

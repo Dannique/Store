@@ -2,10 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import SendIcon from '@mui/icons-material/Send';
 import { mobile } from "../responsive";
+import style from "styled-theming"
+
+const getNewsBackground = style("mode", {
+  dark: "#393e47",
+  light: "#fcf5f5",
+})
 
 const Container = styled.div`
   height: 60vh;
-  background-color: #fcf5f5;
+  background-color: ${getNewsBackground};
   display: flex;
   align-items: center;
   justify-content: center;

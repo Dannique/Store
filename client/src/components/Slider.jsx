@@ -4,12 +4,26 @@ import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutl
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import {sliderItems} from '../data'
 import { mobile } from "../responsive";
+import style from "styled-theming"
+
+const getSliderBackground = style("mode", {
+    dark: "#181B22",
+    light: "#f5f1ed",
+  })
+  const getForeground = style("mode", {
+    dark: "#fff",
+    light: "#000000",
+  })
+const getArrowTheme = style("mode",{
+  dark:"#7C7C7C",
+  light:"#FCFBFB"
+})
 
 const Container = styled.div`
     	height: calc(100vh - 90px);
         width: 100%;
         display: flex;
-        background-color: #f5f1ed;
+        background-color: ${getSliderBackground};
         position: relative;
         overflow: hidden;
         ${mobile({ display: "none" })}
@@ -17,7 +31,8 @@ const Container = styled.div`
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
-    background-color: #FCFBFB;
+   // background-color: #FCFBFB;
+   background-color: ${getArrowTheme};
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -40,7 +55,8 @@ display: flex;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
 `
 const Slide = styled.div`
-  background-color: ${props => props.bg};
+ // background-color: ${props => props.bg};
+ background-color:${getSliderBackground};
   width: 100vw;
   height:  calc(100vh - 90px);
   display: flex;
@@ -57,6 +73,8 @@ const Button = styled.button`
   letter-spacing: 1.2px;
   font-weight: 600;
   background-color: transparent;
+  color:${getForeground};
+  border: 2px solid ${getForeground};
   cursor: pointer;
   &:hover{
     background-color: rgba(55,51,51,0.49);
